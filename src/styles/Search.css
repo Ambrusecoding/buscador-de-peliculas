@@ -1,0 +1,36 @@
+/* styles/Search.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  
+  .movie-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .movie-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .movie-image {
+    width: 150px; /* Tamaño de la imagen de la película */
+    margin-right: 20px;
+  }
+  
+  .movie-details {
+    flex: 1;
+  }
+  
+  .movie-details h3 {
+    margin-top: 0;
+  }
+  
+  .movie-details p {
+    margin-bottom: 10px;
+  }
